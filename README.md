@@ -1,153 +1,183 @@
 <div align="center">
 
-# Karthik Yernana
-
-### I build systems, not just screens.
-
-Full-stack engineer exploring product engineering, distributed workflows, developer tooling, and applied AI.
+<img src="https://raw.githubusercontent.com/karthikyernana/karthikyernana/main/assets/portal.svg" width="100%" alt="Karthik Yernana — engineering workspace" />
 
 <br />
 
-<a href="https://github.com/karthikyernana/fundsroom">FundsRoom</a> ·
-<a href="https://github.com/karthikyernana/ridesync">RideSync</a> ·
-<a href="https://github.com/karthikyernana/manual-rpm">Manual-RPM</a> ·
-<a href="https://github.com/karthikyernana/verdant">Verdant</a>
+<a href="https://github.com/karthikyernana/fundsroom"><img src="https://img.shields.io/badge/FUNDSROOM-ERP%20%2B%20CRM-0B1220?style=flat-square&labelColor=0B1220&color=69EACB" /></a>
+<a href="https://github.com/karthikyernana/ridesync"><img src="https://img.shields.io/badge/RIDESYNC-MOBILITY-0B1220?style=flat-square&labelColor=0B1220&color=7C6CFF" /></a>
+<a href="https://github.com/karthikyernana/manual-rpm"><img src="https://img.shields.io/badge/MANUAL--RPM-REALTIME-0B1220?style=flat-square&labelColor=0B1220&color=FF6BD6" /></a>
+<a href="https://github.com/karthikyernana/verdant"><img src="https://img.shields.io/badge/VERDANT-URBAN%20TECH-0B1220?style=flat-square&labelColor=0B1220&color=69EACB" /></a>
 
 </div>
 
----
-
-## The current chapter
-
-I like software that has something real to reason about behind the interface: transactions that cannot overdraw inventory, payment flows that must be verified, event streams that arrive in real time, permissions that actually matter, and products that behave like coherent systems instead of collections of pages.
-
-Right now I’m deepening that approach across full-stack development, systems thinking, DSA, and practical AI. I care about understanding why a system works, where it breaks, and what the simplest reliable architecture looks like.
-
-```text
-build → test → break → understand → rebuild
-```
-
-## Selected work
+<br />
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="58%" valign="top">
 
-### FundsRoom
-Mini ERP + CRM operations platform.
+## I build the part behind the interface.
 
-React · TypeScript · Node · Express · PostgreSQL · Prisma · JWT
+Not another collection of CRUD screens.
 
-Atomic stock deduction, audit trails, role-based access, transactional challans, and a production deployment split across Vercel + Render.
+I’m interested in software where the interesting problems live underneath: transactions, state, concurrency, permissions, event streams, payments, spatial logic, and the decisions that make a system dependable.
 
-<a href="https://github.com/karthikyernana/fundsroom">View repository →</a>
-
-</td>
-<td width="50%" valign="top">
-
-### RideSync
-Peer-to-peer mobility and carpooling platform.
-
-Laravel · React · Inertia · Tailwind · Razorpay
-
-Geospatial ride matching, boarding OTP verification, payment signature validation, refund rules, lifecycle state management, and automated tests.
-
-<a href="https://github.com/karthikyernana/ridesync">View repository →</a>
+I’m currently moving deeper into full-stack engineering, systems thinking, DSA, and applied AI — while turning ideas into things people can actually use.
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="42%" valign="top">
 
-### Manual-RPM
-Real-time remote patient monitoring system.
-
-React · Node · Express · MongoDB · SSE
-
-Threshold-based alerting, role-based security, background scheduling, audit logging, clinical dashboards, and automated testing.
-
-<a href="https://github.com/karthikyernana/manual-rpm">View repository →</a>
-
-</td>
-<td width="50%" valign="top">
-
-### Verdant
-Decentralized urban agriculture platform.
-
-Laravel · Blade · Tailwind · Alpine · Open-Meteo
-
-Spatial plot discovery, peer-to-peer resource exchange, weather intelligence, cultivation planning, and community workflows.
-
-<a href="https://github.com/karthikyernana/verdant">View repository →</a>
+```text
+╭────────────────────────╮
+│  CURRENT SIGNAL        │
+│                        │
+│  building      ██████  │
+│  learning      █████   │
+│  breaking      ████    │
+│  rebuilding    ██████  │
+│                        │
+│  status: ONLINE        │
+╰────────────────────────╯
+```
 
 </td>
 </tr>
 </table>
 
-## What I’m drawn to
-
-```text
-PRODUCT ENGINEERING
-├── Full-stack architecture
-├── Backend correctness
-├── Data & state design
-├── Security & authorization
-└── Interfaces with intent
-
-SYSTEMS
-├── Concurrency
-├── Transactions
-├── Event-driven flows
-├── Geospatial features
-└── Testing as a design tool
-
-CURRENTLY EXPLORING
-├── Applied AI
-├── Conversational systems
-├── Developer tooling
-└── Algorithms & problem solving
-```
-
-## The stack I actually use
+<br />
 
 <div align="center">
 
-`TypeScript` `JavaScript` `C++` `Python` `PHP`
-
-`React` `Node.js` `Express` `Laravel` `Inertia`
-
-`PostgreSQL` `MongoDB` `Prisma` `Eloquent`
-
-`Vite` `Tailwind CSS` `Framer Motion` `GSAP`
-
-`Git` `GitHub` `Vercel` `Render`
+### ─── selected systems ───
 
 </div>
 
-## A little more human
+<table>
+<tr>
+<td width="50%" valign="top">
 
-I’m a B.Tech CSE student who enjoys taking an idea from “this could be useful” to something that can survive contact with real users, real data, and real failure modes.
+## `01` / FundsRoom
 
-Outside the code, I’m interested in product thinking, technology entrepreneurship, and the uncomfortable questions that appear when you try to turn a prototype into a dependable system.
+**Operations software with real transactional problems.**
 
-## Find me
+React · TypeScript · Node · Express · PostgreSQL · Prisma
+
+Atomic stock deduction. Transaction rollback. Role isolation. Audit trails. Historical snapshots. Integration tests. Production deployment.
+
+<a href="https://github.com/karthikyernana/fundsroom">EXPLORE →</a>
+
+</td>
+<td width="50%" valign="top">
+
+## `02` / RideSync
+
+**A mobility system built around state and trust.**
+
+Laravel · React · Inertia · Tailwind · Razorpay
+
+Geospatial matching. Boarding OTP. HMAC payment verification. Tiered refunds. Ride lifecycle state machine. Automated tests.
+
+<a href="https://github.com/karthikyernana/ridesync">EXPLORE →</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+## `03` / Manual-RPM
+
+**Real-time monitoring where latency matters.**
+
+React · Node · Express · MongoDB · SSE
+
+Rule-driven alerts. Live event streaming. RBAC. Audit logging. Background jobs. Clinical dashboards. Dual-layer testing.
+
+<a href="https://github.com/karthikyernana/manual-rpm">EXPLORE →</a>
+
+</td>
+<td width="50%" valign="top">
+
+## `04` / Verdant
+
+**A digital layer for decentralized urban farming.**
+
+Laravel · Blade · Tailwind · Alpine · Open-Meteo
+
+Spatial discovery. Plot reservations. Resource exchange. Weather intelligence. Cultivation planning. Community workflows.
+
+<a href="https://github.com/karthikyernana/verdant">EXPLORE →</a>
+
+</td>
+</tr>
+</table>
+
+<br />
 
 <div align="center">
 
-<a href="https://github.com/karthikyernana">GitHub</a> ·
-<a href="https://www.linkedin.com/in/karthikyernana/">LinkedIn</a> ·
-<a href="mailto:karthikyernana@gmail.com">Email</a>
+### ┌─ things I enjoy thinking about ─┐
+
+</div>
+
+<table>
+<tr>
+<td align="center" width="25%"><b>STATE</b><br/><sub>How does a system<br/>change safely?</sub></td>
+<td align="center" width="25%"><b>DATA</b><br/><sub>What must remain<br/>true over time?</sub></td>
+<td align="center" width="25%"><b>EVENTS</b><br/><sub>What happens when<br/>things move?</sub></td>
+<td align="center" width="25%"><b>PRODUCT</b><br/><sub>Does the technology<br/>solve anything?</sub></td>
+</tr>
+</table>
+
+<br />
+
+<div align="center">
+
+### technology, without the bingo card
+
+`TypeScript` · `JavaScript` · `C++` · `Python` · `PHP`
+
+`React` · `Node.js` · `Express` · `Laravel` · `Inertia`
+
+`PostgreSQL` · `MongoDB` · `Prisma` · `Eloquent`
+
+`Vite` · `Tailwind` · `Framer Motion` · `GSAP`
+
+</div>
+
+<br />
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### NOW
+
+Going deeper into algorithms, backend architecture, applied AI, conversational systems, and the engineering discipline required to turn prototypes into reliable products.
+
+</td>
+<td width="50%" valign="top">
+
+### OUTSIDE THE CODE
+
+Product thinking, technology entrepreneurship, and asking inconvenient questions about why software works — or why it doesn’t.
+
+</td>
+</tr>
+</table>
+
+<br />
+
+<div align="center">
+
+<a href="https://github.com/karthikyernana">GITHUB</a>　·　<a href="https://www.linkedin.com/in/karthikyernana/">LINKEDIN</a>　·　<a href="mailto:karthikyernana@gmail.com">EMAIL</a>
 
 <br /><br />
 
-<img src="https://komarev.com/ghpvc/?username=karthikyernana&style=flat-square&color=555555" alt="Profile views" />
+<sub>build → test → break → understand → rebuild</sub>
 
-</div>
+<br /><br />
 
----
-
-<div align="center">
-
-*Still building. Still breaking things. Still figuring out why they broke.*
+<img src="https://komarev.com/ghpvc/?username=karthikyernana&style=flat-square&color=69EACB&label=visitors" alt="Profile visitors" />
 
 </div>

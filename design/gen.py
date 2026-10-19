@@ -147,11 +147,11 @@ def pill(name, icon, label, handle, i):
 def label(name, num, text, note=''):
     W, H = 1200, 72
     body = f'''
-<text x="4" y="44" class="f-monom acc" font-size="14" letter-spacing="2.5">{num}</text>
-<text x="46" y="46" class="f-serif ink" font-size="34">{esc(text)}</text>
-<line x1="{60 + len(text)*15.5:.0f}" y1="36" x2="{1196 - (len(note)*8.6 + 20 if note else 0):.0f}" y2="36" class="line" stroke-width="1"/>
-{f'<text x="1196" y="41" text-anchor="end" class="f-mono mute" font-size="12" letter-spacing="1.5">{esc(note)}</text>' if note else ''}'''
-    write(f'label-{name}', svg(W, H, body, f'{num} {text}', grain=False, frame=False, radius=0))
+<text x="32" y="44" class="f-monom acc" font-size="14" letter-spacing="2.5">{num}</text>
+<text x="74" y="46" class="f-serif ink" font-size="34">{esc(text)}</text>
+<line x1="{90 + len(text)*15.5:.0f}" y1="36" x2="{1168 - (len(note)*8.6 + 20 if note else 0):.0f}" y2="36" class="line" stroke-width="1"/>
+{f'<text x="1168" y="41" text-anchor="end" class="f-mono mute" font-size="12" letter-spacing="1.5">{esc(note)}</text>' if note else ''}'''
+    write(f'label-{name}', svg(W, H, body, f'{num} {text}', grain=False, radius=18))
 
 # ---------------------------------------------------------------- featured: PreCourier
 def featured():

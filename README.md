@@ -1,11 +1,11 @@
 <a href="https://karthikyernana.dev"><img src="assets/hero.svg" width="100%" alt="Karthik Yernana — full-stack developer and AI engineer, building with a founder’s mindset"></a>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/yernana/"><img src="assets/link-linkedin.svg" width="19%" alt="LinkedIn: in/yernana"></a>
-  <a href="https://x.com/karthikbuildss"><img src="assets/link-x.svg" width="19%" alt="X: @karthikbuildss"></a>
-  <a href="https://karthikyernana.dev"><img src="assets/link-portfolio.svg" width="19%" alt="Portfolio: karthikyernana.dev"></a>
-  <a href="https://leetcode.com/u/karthik_yernana/"><img src="assets/link-leetcode.svg" width="19%" alt="LeetCode: karthik_yernana"></a>
-  <a href="mailto:karthikyernana@gmail.com"><img src="assets/link-email.svg" width="19%" alt="Email Karthik"></a>
+  <a href="https://www.linkedin.com/in/yernana/"><img src="assets/link-linkedin.svg" width="18.5%" alt="LinkedIn: in/yernana"></a>
+  <a href="https://x.com/karthikbuildss"><img src="assets/link-x.svg" width="18.5%" alt="X: @karthikbuildss"></a>
+  <a href="https://karthikyernana.dev"><img src="assets/link-portfolio.svg" width="18.5%" alt="Portfolio: karthikyernana.dev"></a>
+  <a href="https://leetcode.com/u/karthik_yernana/"><img src="assets/link-leetcode.svg" width="18.5%" alt="LeetCode: karthik_yernana"></a>
+  <a href="mailto:karthikyernana@gmail.com"><img src="assets/link-email.svg" width="18.5%" alt="Email Karthik"></a>
 </p>
 
 <a href="https://www.linkedin.com/in/yernana/"><img src="assets/about.svg" width="100%" alt="I came to code from the launch side. I ran marketing at Gravity and kept wanting to build the product, so I learned. Now I build full-stack products with AI in the loop: I set the intent, guide the agents, and review every line before it ships."></a>

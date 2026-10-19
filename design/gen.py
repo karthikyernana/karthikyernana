@@ -1,7 +1,7 @@
 """Profile README v3 — designed SVG components.
 
 Each component is a self-contained SVG: subset fonts embedded as base64 WOFF2,
-light-only palette (he chose light, 2026-10-19), CSS keyframe motion with
+light and dark palettes (<file>.svg and <file>-dark.svg), CSS keyframe motion with
 reduced-motion fallback. GitHub renders SVGs as <img>, so no JS and no remote
 assets are allowed inside them.
 
@@ -23,9 +23,11 @@ FONTS = {
 }
 
 # Palette: bone paper + ink, vermilion signal (Indian post-box red), pine secondary.
-PALETTE = """
-:root{--bg:#F3EEE5;--card:#FBF8F2;--ink:#17140F;--sub:#4A443B;--mute:#8A8275;--line:#DDD5C7;--hair:#E8E1D4;
---acc:#E4472B;--acc-soft:#F6D3C8;--pine:#2F5D50;--pine-soft:#D5E3DC;--amber:#C98A1B;--amber-soft:#F2E2BF;--grain:.05}
+MODE = "light"
+TOKENS = {"light": """:root{--bg:#F3EEE5;--card:#FBF8F2;--ink:#17140F;--sub:#4A443B;--mute:#8A8275;--line:#DDD5C7;--hair:#E8E1D4;
+--acc:#E4472B;--acc-soft:#F6D3C8;--pine:#2F5D50;--pine-soft:#D5E3DC;--amber:#C98A1B;--amber-soft:#F2E2BF;--grain:.05}""",
+          "dark": """:root{--bg:#121722;--card:#181E2A;--ink:#EDE7DA;--sub:#B9B3A6;--mute:#7F8796;--line:#2A3242;--hair:#1F2633;--acc:#D9B26F;--acc-soft:#3A3122;--pine:#93C2A6;--pine-soft:#1C2E28;--amber:#A9B6EA;--amber-soft:#232A45;--grain:.06}"""}
+SHARED = """
 
 .bg{fill:var(--bg)}.card{fill:var(--card)}.ink{fill:var(--ink)}.sub{fill:var(--sub)}.mute{fill:var(--mute)}
 .acc{fill:var(--acc)}.pine{fill:var(--pine)}.amber{fill:var(--amber)}
@@ -36,6 +38,7 @@ PALETTE = """
 .ease{animation-timing-function:cubic-bezier(.65,0,.35,1)}
 @media (prefers-reduced-motion: reduce){*{animation:none!important}}
 """
+
 
 def font_face(key, chars):
     path, fam, style, weight = FONTS[key]
@@ -67,13 +70,13 @@ def svg(w, h, body, title, extra_css='', grain=True, radius=26, frame=True):
     border = f'<rect x=".75" y=".75" width="{w-1.5}" height="{h-1.5}" rx="{radius-.75}" fill="none" class="line" stroke-width="1.5"/>' if frame else ''
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{html.escape(title)}">'
             f'<title>{html.escape(title)}</title><defs>{GRAIN}<clipPath id="clip"><rect width="{w}" height="{h}" rx="{radius}"/></clipPath></defs>'
-            f'<style>{faces}{PALETTE}{extra_css}</style>'
+            f'<style>{faces}{TOKENS[MODE]}{SHARED}{extra_css}</style>'
             f'<g clip-path="url(#clip)">{bgrect}{body}{g}</g>{border}</svg>')
 
 def esc(s): return html.escape(s, quote=False)
 
 def write(name, content):
-    open(f'../assets/{name}.svg', 'w').write(content)
+    open(f'../assets/{name}{"-dark" if MODE == "dark" else ""}.svg', 'w').write(content)
     print(f'{name}.svg  {len(content)//1024} KB')
 
 # ---------------------------------------------------------------- hero
@@ -332,7 +335,7 @@ def footer():
 <text x="56" y="124" class="f-mono mute" font-size="12" letter-spacing="1.5">KARTHIKYERNANA@GMAIL.COM</text>'''
     write('footer', svg(W, H, body, 'Let’s build something that holds up. karthikyernana@gmail.com', css, frame=True))
 
-if __name__ == '__main__':
+def build():
     hero()
     for i, (n, ic, lb, hd) in enumerate([('linkedin', 'linkedin', 'LinkedIn', 'in/yernana'), ('x', 'x', 'X', '@karthikbuildss'),
                                          ('portfolio', 'portfolio', 'Portfolio', 'karthikyernana.dev'), ('leetcode', 'leetcode', 'LeetCode', 'karthik_yernana'),
@@ -355,3 +358,8 @@ if __name__ == '__main__':
     label('now', '03', 'Right now')
     now()
     footer()
+
+
+if __name__ == '__main__':
+    for MODE in ('light', 'dark'):
+        build()

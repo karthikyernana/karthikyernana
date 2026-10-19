@@ -8,9 +8,9 @@
   <a href="mailto:karthikyernana@gmail.com"><img src="assets/link-email.svg" width="19%" alt="Email Karthik"></a>
 </p>
 
-<img src="assets/about.svg" width="100%" alt="I came to code from the launch side. I ran marketing at Gravity and kept wanting to build the product, so I learned. Now I build full-stack products with AI in the loop: I set the intent, guide the agents, and review every line before it ships.">
+<a href="https://www.linkedin.com/in/yernana/"><img src="assets/about.svg" width="100%" alt="I came to code from the launch side. I ran marketing at Gravity and kept wanting to build the product, so I learned. Now I build full-stack products with AI in the loop: I set the intent, guide the agents, and review every line before it ships."></a>
 
-<img src="assets/label-work.svg" width="100%" alt="01 Selected work">
+<a href="https://github.com/karthikyernana?tab=repositories"><img src="assets/label-work.svg" width="100%" alt="01 Selected work"></a>
 
 <a href="https://github.com/karthikyernana/PreCourier"><img src="assets/featured-precourier.svg" width="100%" alt="PreCourier — decide before the courier does. An India-first decision API that checks cash-on-delivery orders before the shipping label. Python, FastAPI, 200+ tests."></a>
 
@@ -23,11 +23,11 @@
   <a href="https://github.com/karthikyernana/manual-rpm"><img src="assets/project-manual-rpm.svg" width="49%" alt="Manual-RPM — remote patient monitoring with rule-based live alerts. MERN, Server-Sent Events."></a>
 </p>
 
-<img src="assets/label-toolkit.svg" width="100%" alt="02 Toolkit">
+<a href="https://github.com/karthikyernana?tab=repositories"><img src="assets/label-toolkit.svg" width="100%" alt="02 Toolkit"></a>
 
-<img src="assets/toolkit.svg" width="100%" alt="Interface: React, Next.js, TypeScript, Tailwind CSS. Server: Node.js, Express, Python, FastAPI. Data: PostgreSQL, MongoDB, Prisma, Supabase. AI and automation: AI agents, n8n, LLM APIs. Ship and practice: Docker, Vercel, Git, C++ and DSA.">
+<a href="https://github.com/karthikyernana?tab=repositories"><img src="assets/toolkit.svg" width="100%" alt="Interface: React, Next.js, TypeScript, Tailwind CSS. Server: Node.js, Express, Python, FastAPI. Data: PostgreSQL, MongoDB, Prisma, Supabase. AI and automation: AI agents, n8n, LLM APIs. Ship and practice: Docker, Vercel, Git, C++ and DSA."></a>
 
-<img src="assets/label-now.svg" width="100%" alt="03 Right now">
+<a href="https://leetcode.com/u/karthik_yernana/"><img src="assets/label-now.svg" width="100%" alt="03 Right now"></a>
 
 <a href="https://leetcode.com/u/karthik_yernana/"><img src="assets/now.svg" width="100%" alt="Building PreCourier into a decision engine a real brand could run. Practising DSA in C++ every week. Open to full-time roles, freelance work and good collaborations."></a>
 
